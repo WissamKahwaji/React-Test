@@ -1,0 +1,30 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.calculator {
+  width: 90%;
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+@media (max-width: 600px) {
+  .calculator {
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+}
